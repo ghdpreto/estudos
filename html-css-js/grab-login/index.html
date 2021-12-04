@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <!-- RESET/ BASE CSS -->
+    <link rel="stylesheet" href="./css/elements/reset.css" />
+    <link rel="stylesheet" href="./css/elements/base.css" />
+
+    <!-- COLORS -->
+    <link rel="stylesheet" href="./css/settings/colors.css" />
+
+    <!-- COMPONENTS -->
+    <link rel="stylesheet" href="./css/components/c-main.css" />
+    <link rel="stylesheet" href="./css/components/c-input.css" />
+    <link rel="stylesheet" href="./css/components/c-button.css" />
+
+    <title>Grab - Login</title>
+  </head>
+  <body>
+    <main class="c-main">
+      <section class="c-main__wrapper-login">
+        <img
+          class="c-main__logo"
+          src="./assets/logo-grab.svg"
+          alt="Logo Grab"
+        />
+        <div class="c-main__wrapper-inputs">
+          <div class="c-input" data-js="inputEmail">
+            <input class="c-input__element" data-js="userEmail" type="email" />
+            <span class="material-icons c-input__icon"> alternate_email </span>
+            <p class="c-input__message-error">
+              Por favor, insira um email válido
+            </p>
+          </div>
+
+          <div class="c-input" data-js="passwordInput">
+            <input
+              class="c-input__element"
+              data-js="userPassword"
+              type="password"
+            />
+            <span class="material-icons c-input__icon"> lock </span>
+            <p class="c-input__message-error">Senha inválida</p>
+          </div>
+          <button class="c-button" data-js="btnLogin">Entrar</button>
+        </div>
+
+        <div class="c-main__help">
+          <p>
+            problemas para entrar?
+            <a href="#" data-js="help"> <strong>clique aqui!</strong></a>
+          </p>
+        </div>
+      </section>
+      <section class="c-main__wrapper-illustration"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

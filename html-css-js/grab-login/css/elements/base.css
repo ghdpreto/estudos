@@ -1,0 +1,9 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: var(--second-color);
+}
+
+html,
+body {
+  height: 100vh;
+}
