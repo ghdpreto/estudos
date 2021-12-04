@@ -1,0 +1,6 @@
+.c-main {
+  max-width: 1240px;
+  display: grid;
+  gap: 12rem;
+  margin: 5rem auto;
+}
