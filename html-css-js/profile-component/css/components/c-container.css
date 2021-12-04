@@ -1,0 +1,14 @@
+.c-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: var(--gap-medium) 0;
+}
+
+@media(max-width: 768px) {
+    .c-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
