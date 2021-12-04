@@ -1,0 +1,17 @@
+html, body {
+    font-size: 65,5%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: var(--color-dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width: 1024px) {
+    html,body {
+        font-size: 80%;
+    }
+}
